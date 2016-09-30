@@ -1,0 +1,81 @@
+.game-grid {
+    -fx-background-color: white ;
+    -fx-padding: 10 ;
+}
+.game-grid-cell {
+    -fx-background-color: transparent, white ;
+    -fx-background-insets: 10  ;
+}
+
+.game-grid-cell.first-row {
+    -fx-background-insets: 2 ;
+    -fx-border-color: top right bottom left;
+    -fx-border-color: transparent transparent red gray;
+    -fx-hpos: center;
+}
+
+.game-grid-cell.fim-de-semana {
+    -fx-background-insets: 0 ;
+    -fx-background-color: #E3E3E3;
+    -fx-border-color: top right bottom left;
+    -fx-border-color: transparent transparent transparent #FFFFFF;
+    -fx-hpos: center;
+}
+
+.game-grid-cell.column {
+    -fx-background-insets: 10, 10, 10, 10 ;
+    -fx-border-color: top right bottom left;
+    -fx-border-color: transparent transparent transparent gray;
+}
+.game-grid-cell.first-row.first-column {
+    -fx-background-insets: 10 ;
+}
+
+.game-grid-cell-amarelo {
+    -fx-padding: top right bottom left;
+    -fx-padding: 3, 3, 3, 3;
+    -fx-background-insets: top right bottom left;
+    -fx-background-insets: 0, 2, 0, 0 ;
+    -fx-background-color: transparent, yellow ;
+}
+
+.game-grid-cell-vermelho {
+    -fx-padding: top right bottom left;
+    -fx-padding: 3, 3, 3, 3;
+    -fx-background-insets: top right bottom left;
+    -fx-background-insets: 0, 2, 0, 0 ;
+    -fx-background-color: transparent, #F5BFBF ;
+}
+
+.game-grid-cell-verde {
+    -fx-padding: top right bottom left;
+    -fx-padding: 3, 3, 3, 3;
+    -fx-background-insets: top right bottom left;
+    -fx-background-insets: 0, 2, 0, 0 ;
+    -fx-background-color: transparent, #CEF5A6 ;
+}
+
+.game-grid-cell-azul {
+    -fx-padding: top right bottom left;
+    -fx-padding: 3, 3, 3, 3;
+    -fx-background-insets: top right bottom left;
+    -fx-background-insets: 0, 2, 0, 0 ;
+    -fx-background-color: transparent, #A6E1F5 ;
+}
+
+.game-grid-cell-viagem {
+    -fx-padding: top right bottom left;
+    -fx-padding: 3, 3, 3, 3;
+    -fx-background-insets: top right bottom left;
+    -fx-background-insets: 0, 2, 0, 0 ;
+    -fx-background-color: transparent, #E9F0F2 ;
+}
+
+.button-raised-bamer{
+	-fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -fx-button-type: RAISED;
+    -fx-background-color: rgb(77,102,204);
+    -fx-pref-width: 40;
+    -fx-text-fill: WHITE;
+}

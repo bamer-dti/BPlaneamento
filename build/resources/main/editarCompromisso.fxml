@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Line?>
+<GridPane alignment="CENTER" maxWidth="245.0" minHeight="-Infinity" minWidth="245.0" prefWidth="245.0"
+          xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bamer.ControllerEditar">
+    <columnConstraints>
+        <ColumnConstraints/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER"/>
+        <RowConstraints valignment="CENTER"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER"/>
+        <RowConstraints valignment="CENTER"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0"/>
+    </rowConstraints>
+    <Label text="Corte" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </Label>
+    <Label text="Transformação" GridPane.rowIndex="6">
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </Label>
+    <Label fx:id="fref" alignment="CENTER_RIGHT" text="fref" GridPane.columnSpan="2" GridPane.halignment="LEFT">
+        <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+    </Label>
+    <Label fx:id="os" alignment="CENTER_RIGHT" text="OS" GridPane.columnSpan="2" GridPane.halignment="LEFT"
+           GridPane.rowIndex="1">
+        <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+    </Label>
+    <Label fx:id="obs" alignment="CENTER_RIGHT" text="obs" GridPane.columnSpan="2" GridPane.halignment="LEFT"
+           GridPane.rowIndex="2">
+        <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+    </Label>
+    <Label alignment="CENTER_RIGHT" text="Embalagem" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
+        <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+    </Label>
+    <Label alignment="CENTER_RIGHT" text="Expedição" GridPane.halignment="RIGHT" GridPane.rowIndex="8">
+        <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </padding>
+    </Label>
+    <Line endX="245.0" stroke="#d0c9c9" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+          GridPane.rowIndex="3"/>
+    <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1"
+          GridPane.rowIndex="9">
+        <Button fx:id="btgravar" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Gravar">
+            <HBox.margin>
+                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+            </HBox.margin>
+        </Button>
+    </HBox>
+    <DatePicker fx:id="dtcortef" GridPane.columnIndex="1" GridPane.rowIndex="5">
+        <opaqueInsets>
+            <Insets/>
+        </opaqueInsets>
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </DatePicker>
+    <DatePicker fx:id="dttransf" GridPane.columnIndex="1" GridPane.rowIndex="6">
+        <opaqueInsets>
+            <Insets/>
+        </opaqueInsets>
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </DatePicker>
+    <DatePicker fx:id="dtembala" GridPane.columnIndex="1" GridPane.rowIndex="7">
+        <opaqueInsets>
+            <Insets/>
+        </opaqueInsets>
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </DatePicker>
+    <DatePicker fx:id="dtexpedi" GridPane.columnIndex="1" GridPane.rowIndex="8">
+        <opaqueInsets>
+            <Insets/>
+        </opaqueInsets>
+        <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0"/>
+        </GridPane.margin>
+    </DatePicker>
+    <Label text="Estado" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
+        <GridPane.margin>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+        </GridPane.margin>
+    </Label>
+    <ComboBox fx:id="combo_estado" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <GridPane.margin>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0"/>
+        </GridPane.margin>
+    </ComboBox>
+</GridPane>

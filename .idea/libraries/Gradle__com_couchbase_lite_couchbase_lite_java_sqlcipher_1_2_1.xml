@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.couchbase.lite:couchbase-lite-java-sqlcipher:1.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-sqlcipher/1.2.1/5c73c6549a4c8ac88d892d53fc3c90528b3b64a2/couchbase-lite-java-sqlcipher-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-sqlcipher/1.2.1/f9b2a3f1eae676102cc47a1b3e3047d0587890e4/couchbase-lite-java-sqlcipher-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
